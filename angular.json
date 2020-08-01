@@ -117,8 +117,16 @@
               "devServerTarget": "RoseAuth:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "RoseAuth"
+    }
+  },
+  "defaultProject": "RoseAuth",
+  "cli": {
+    "analytics": "affc9707-cfb3-46d9-9a7d-f0e31cf031fd"
+  }
 }
