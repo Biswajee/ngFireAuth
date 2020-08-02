@@ -19,5 +19,8 @@
         <img [src]="user.photoURL">
         <p>UID: {{ user.uid }}</p>
         <p>Favourite colour: {{ user?.favouriteColor }}</p>
+        <button (click)="auth.googleLogout()">
+            <i class="fa fa-google"></i> Logout
+        </button>
     </div>
 </ng-template>

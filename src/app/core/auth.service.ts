@@ -55,4 +55,9 @@ export class AuthService {
                     }
                     return userRef.set(data);
                 }
+                googleLogout() {
+                    return this.afAuth.signOut().then((response) => {
+                        console.log("Sign out success!!");
+                    });
+                }
 }
