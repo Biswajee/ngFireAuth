@@ -1,1 +1,23 @@
-<p>user-profile works!</p>
+<div *ngIf="auth.user | async; then authenticated else guest">
+    <!--template will replace this div-->
+</div>
+
+<!--User not logged in-->
+<ng-template #guest>
+    <h3> Hey, Guest</h3>
+    <p>Login to get started...</p>
+
+    <button (click)="auth.googleLogin()">
+        <i class="fa fa-google"></i> Connect Google
+    </button>
+</ng-template>
+
+<!--User logged in-->
+<ng-template #authenticated>
+    <div *ngIf="auth.user | async as user">
+        <h3> Hey, {{ user.displayName }}</h3>
+        <img [src]="user.photoURL">
+        <p>UID: {{ user.uid }}</p>
+        <p>Favourite colour: {{ user?.favouriteColor }}</p>
+    </div>
+</ng-template>
