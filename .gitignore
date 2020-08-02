@@ -49,3 +49,7 @@ Thumbs.db
 # Firebase stuffs
 .firebaserc
 firebase.json
+
+# Production Credentials
+
+**/environments/**
