@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { UserProfileComponent } from './user-profile/user-profile.component';
-import { firebaseConfig } from '../environments/environment.prod'
+import { firebaseConfig } from '../environments/environment'
 
 @NgModule({
   declarations: [
