@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "rosier": {
+      "hosting": {
+        "RoseAuth": [
+          "rosier"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "rosier"
+  }
+}
