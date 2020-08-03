@@ -52,4 +52,4 @@ firebase.json
 
 # Production Credentials
 
-**/environments/**
+**/environments/environment.prod.ts
