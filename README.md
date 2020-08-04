@@ -2,4 +2,4 @@
 
 **RoseAuth** is a mock authentication app developed in angular and firebase.
 
-Site is live at : `rosier.netlify.app`
+Site is live at : `roses-are-rosie.netlify.app`

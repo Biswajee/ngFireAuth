@@ -48,3 +48,5 @@ Thumbs.db
 # Production Credentials
 
 **/environments/environment.prod.ts
+# Local Netlify folder
+.netlify
